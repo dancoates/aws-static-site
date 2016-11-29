@@ -1,3 +1,4 @@
+features
 - Ability to specify separate credentials for s3 and cloudfront
 - Handling of 404 fallbacks
 - cache control
@@ -11,16 +12,24 @@
 - dry run
 - remove previews from dead branches?
 
-
 crazy ideas
 - github bot to post cloudfront url upon branch creation?
 - something to let you know when preview is ready
 
+flow
+- Create config
+- Apply config (creates/updates buckets/cloudfront distribution as needed)
+- Push files
+
+management:
+- Prune dead buckets/cloudfront distributions (based on regex)
+
 
 tech
-
 - prompt setup with https://github.com/sboudrias/Inquirer.js
 - maybe progress https://github.com/visionmedia/node-progress
 - args parser: https://www.npmjs.com/package/commander
 - api docs S3: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#headBucket-property
 - api docs Cloudfront: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CloudFront.html
+
+
