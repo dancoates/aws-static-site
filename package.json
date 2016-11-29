@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "aws-sdk": "^2.7.7",
-    "dotenv": "^2.0.0"
+    "dotenv": "^2.0.0",
+    "yargs": "^6.4.0"
   }
 }

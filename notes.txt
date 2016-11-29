@@ -24,6 +24,9 @@ flow
 management:
 - Prune dead buckets/cloudfront distributions (based on regex)
 
+cli args:
+- envPath
+- 
 
 tech
 - prompt setup with https://github.com/sboudrias/Inquirer.js
