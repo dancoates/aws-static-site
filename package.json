@@ -1,0 +1,10 @@
+{
+  "name": "aws-static-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.7.7",
+    "dotenv": "^2.0.0"
+  }
+}
